@@ -13,7 +13,6 @@ import java.util.stream.Collectors;
 public class DbServiceResource {
 
     private final QuotesRepository quotesRepository;
-
     public DbServiceResource(QuotesRepository quotesRepository) {
         this.quotesRepository = quotesRepository;
     }
